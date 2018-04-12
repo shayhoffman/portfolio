@@ -18,7 +18,7 @@ class Nav extends Component {
           <div className = "collapse navbar-collapse" id = "collapsibleFooter">
             <ul className = "navbar-nav">
               <li className = "nav-item">
-                <a className="nav-link" href="#aboutMe">About Me</a>
+                <a className="nav-link" href= "#aboutMe">About Me</a>
               </li>
               <li>
                 <a className="nav-link" href="#portfolio">Portfolio</a>
@@ -34,4 +34,4 @@ class Nav extends Component {
   }
 }
 
-export default Nav
+export default Nav;
