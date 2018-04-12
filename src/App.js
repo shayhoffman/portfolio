@@ -144,7 +144,7 @@ class App extends Component {
 
         <div className="footer">
           <nav className = "navbar navbar-expand-md bg-dark navbar-dark" id="bottomNav">
-          <a className="navbar-brand myName" href="https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank"><h3 className="shayName">Shay Hoffman</h3></a>
+            <a className="navbar-brand myName" href="https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank"><h3 className="shayName">Shay Hoffman</h3></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleFooter">
               <span className="navbar-toggler-icon"></span>
             </button>
