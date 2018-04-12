@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+
+/*child components*/
 import {Quote} from './Quote';
-import Nav from  './nav.js'
+import Nav from  './nav.js';
+
+/*image files*/
 import selfie from './selfie.JPG';
 import Indie from './Indie.jpg';
 import airplanescreenshot from './airplanescreenshot.png';
@@ -10,6 +14,8 @@ import map2 from './map2.png';
 import map3 from './map3.png';
 import map4 from './map4.png';
 import jewishpaperscreenshot from './jewishpaperscreenshot.png';
+
+/*PDF files*/
 import GISportfolio from './GISportfolio.pdf';
 import jewishpaper from './jewishpaper.pdf';
 
@@ -26,7 +32,7 @@ class App extends Component {
       <div className="body">
 
         <Nav id="navigation"/>
-          
+
 
         <div className="header">
           <div className="row">
