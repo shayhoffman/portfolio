@@ -57,7 +57,7 @@ class Portfolio extends Component {
 
                 <div className="col-md-4 portfolio-item">
                   <a className="portfolio-link" href={jewishpaper} target="_blank">
-                    <img className="img-fluid" src={jewishpaperscreenshot} alt="linked image of a map"/>
+                    <img className="img-fluid" src={jewishpaperscreenshot} alt="linked image of my writing sample"/>
                   </a>
                 </div>
 

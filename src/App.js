@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Scrollspy from 'react-scrollspy';
 
 /*child components*/
 import {Quote} from './children/Quote';
@@ -15,7 +16,7 @@ class App extends Component {
     this.state = {
 
     }
-  };
+  }
 
   render() {
     return (
@@ -42,26 +43,13 @@ class App extends Component {
         <Inspirational id="apiQuote"/>
 
 
-        <div className="footer">
-          <nav className = "navbar navbar-expand-md bg-dark navbar-dark" id="bottomNav">
-            <a className="navbar-brand myName" href="https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank"><h3 className="shayName">Get In Touch With Me!</h3></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleFooter">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className = "collapse navbar-collapse" id = "collapsibleFooter">
-              <ul className = "navbar-nav">
-                <li className = "nav-item">
-                  <a className="nav-link" href="https://www.facebook.com/shay.hoffman.33" target="_blank">Facebook</a>
-                </li>
-                <li>
-                  <a className="nav-link" href="https://twitter.com/ShayHoffman" target="_blank">Twitter</a>
-                </li>
-                <li>
-                  <a className="nav-link" href="https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank">LinkedIn</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <div className="navigation">
+            <a className="myName" href="https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank"><h3 className="shayName">Get In Touch!</h3></a>
+            <Scrollspy className = 'linksContainer' items={['Facebook', 'Twitter', 'LinkedIn']} currentClassName='scrolled'>
+              <div><a className = 'nav-link' href = "https://www.facebook.com/shay.hoffman.33" target="_blank">Facebook</a></div>
+              <div><a className = 'nav-link' href = "https://twitter.com/ShayHoffman" target="_blank">Twitter</a></div>
+              <div><a className = 'nav-link' href = "https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank">LinkedIn</a></div>
+            </Scrollspy>
         </div>
 
 

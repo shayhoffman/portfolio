@@ -4,15 +4,53 @@ body {
 
 .myName {
   font-family: 'Cookie', cursive;
+  text-decoration: none;
+}
+
+.myName:hover {
+  color: #9966CC;
 }
 /* Google fonts are fun */
 
 .shayName {
   font-size: 35px;
+  color: #00CCCC;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: #343a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 }
 
 .nav-link {
+  color: #eee;
+  margin-right: 25px;
   font-size: 15px;
+  padding-top: 5px;
+}
+
+.nav-link:hover {
+  color: #9966CC;
+}
+
+/* .brand {
+  margin-top: 5px;
+} */
+
+.scrolled {
+  font-weight: bolder;
 }
 
 .header {
@@ -36,7 +74,7 @@ body {
 
 .h1 {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
 .h1:hover {
@@ -88,17 +126,16 @@ body {
 .img-fluid {
   height: auto;
   width: auto;
-  max-height: 360px;
-  max-width: 310px;
+  max-height: 350px;
+  max-width: 350px;
   min-height: 310px;
   display: block;
   margin: 0 auto;
 }
 
 #map3 {
-  max-height: 310px;
-  max-width: 360px;
-  min-width: 360px;
+  height: 291.34px;
+  width: 350px;
 }
 /* I added this to target this specific map because it was the wrong dimensions */
 
@@ -117,9 +154,16 @@ body {
   padding-right: 20px;
 }
 
-footer {
+.footerContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.footer {
   margin-top: 30px;
-  color: white;
+  color: #eee;
+  background-color: #808080;
 }
 
 h3 {
