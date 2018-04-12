@@ -125,3 +125,7 @@ footer {
 h3 {
   color: white;
 }
+
+#bottomNav {
+  margin-bottom: 0;
+}
