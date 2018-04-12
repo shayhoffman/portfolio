@@ -12,7 +12,7 @@ class Inspirational extends Component {
     return(
       <div id="apiQuote">
         <div className="container apiQuote">
-          <h2 className="text-center">An Inspirational Quote and a Doggo</h2>
+          <h2 className="text-center">An Inspirational (API) Quote and a Doggo</h2>
             <div className="row">
               <div className="col-md-8">
                 <p id ="quotethings"><Quote/></p>
