@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import  './App.css';
-import airplanescreenshot from './airplanescreenshot.png';
-import storymapscreenshot from './storymapscreenshot.png';
-import map2 from './map2.png';
-import map3 from './map3.png';
-import map4 from './map4.png';
-import jewishpaperscreenshot from './jewishpaperscreenshot.png';
-import GISportfolio from './GISportfolio.pdf';
-import jewishpaper from './jewishpaper.pdf';
+import  '../App.css';
+import airplanescreenshot from '../images/airplanescreenshot.png';
+import storymapscreenshot from '../images/storymapscreenshot.png';
+import map2 from '../images/map2.png';
+import map3 from '../images/map3.png';
+import map4 from '../images/map4.png';
+import jewishpaperscreenshot from '../images/jewishpaperscreenshot.png';
+import GISportfolio from '../GISportfolio.pdf';
+import jewishpaper from '../jewishpaper.pdf';
 
 class Portfolio extends Component {
   constructor(props){

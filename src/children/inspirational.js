@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import  './App.css';
-import Indie from './Indie.jpg';
+import  '../App.css';
+import Indie from '../images/Indie.jpg';
 import {Quote} from './Quote';
 
 class Inspirational extends Component {

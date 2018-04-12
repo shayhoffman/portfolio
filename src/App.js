@@ -2,25 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 
 /*child components*/
-import {Quote} from './Quote';
-import Nav from  './nav.js';
-import About from './aboutMe.js';
-import Portfolio from './portfolio.js';
-import Inspirational from './inspirational.js';
+import {Quote} from './children/Quote';
+import Nav from  './children/nav.js';
+import About from './children/aboutMe.js';
+import Portfolio from './children/portfolio.js';
+import Inspirational from './children/inspirational.js';
 
-/*image files*/
-import selfie from './selfie.JPG';
-import Indie from './Indie.jpg';
-import airplanescreenshot from './airplanescreenshot.png';
-import storymapscreenshot from './storymapscreenshot.png';
-import map2 from './map2.png';
-import map3 from './map3.png';
-import map4 from './map4.png';
-import jewishpaperscreenshot from './jewishpaperscreenshot.png';
-
-/*PDF files*/
-import GISportfolio from './GISportfolio.pdf';
-import jewishpaper from './jewishpaper.pdf';
 
 class App extends Component {
   constructor(props) {

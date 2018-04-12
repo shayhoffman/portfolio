@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import selfie from './selfie.JPG';
+import '../App.css';
+import selfie from '../images/selfie.JPG';
 
 class About extends Component {
   constructor(props) {
