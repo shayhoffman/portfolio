@@ -49,6 +49,7 @@ class App extends Component {
               <div><a className = 'nav-link' href = "https://www.facebook.com/shay.hoffman.33" target="_blank">Facebook</a></div>
               <div><a className = 'nav-link' href = "https://twitter.com/ShayHoffman" target="_blank">Twitter</a></div>
               <div><a className = 'nav-link' href = "https://www.linkedin.com/in/shay-hoffman-89600a151/" target="_blank">LinkedIn</a></div>
+              <div><a className = 'nav-link' href = "https://github.com/shayhoffman" target ="_blank">GitHub</a></div>
             </Scrollspy>
         </div>
 
